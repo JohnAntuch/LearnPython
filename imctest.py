@@ -4,7 +4,7 @@ altura = float(input('How tall are you?'))
 
 imc = peso / altura ** 2
 
-print('Seu IMC é {}'.format(imc))
+print('Your BMI is {}'.format(imc))
 
 if imc < 16:
     print('Be careful')
